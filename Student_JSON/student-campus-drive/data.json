@@ -1,0 +1,29 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Vetri",
+            "company": "Google"
+        },
+        {
+            "id": 2,
+            "name": "Riya",
+            "company": "Microsoft"
+        },
+        {
+            "id": 3,
+            "name": "Samson",
+            "company": "Amazon"
+        },
+        {
+            "id": 4,
+            "name": "Max",
+            "company": "Apple"
+        },
+        {
+            "id": 5,
+            "name": "Vinay",
+            "company": "Meta"
+        }
+    ]
+}
