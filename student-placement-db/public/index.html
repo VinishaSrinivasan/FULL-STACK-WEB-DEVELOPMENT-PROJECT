@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Placement Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <h1 class="title">🎓 Student Placement Database</h1>
+
+    <!-- ADD STUDENT CARD -->
+    <div class="card">
+
+        <h2>Add Student</h2>
+
+        <div class="form-grid">
+            <input id="name" placeholder="Student Name">
+            <input id="dept" placeholder="Department">
+            <input id="company" placeholder="Company Name">
+            <input id="package" placeholder="Package (LPA)">
+        </div>
+
+        <button class="add-btn" onclick="addStudent()">
+            Add Student
+        </button>
+
+    </div>
+
+    <!-- STUDENT LIST -->
+    <div class="card">
+
+        <h2>Placed Students</h2>
+
+        <div id="list" class="student-list"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
